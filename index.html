@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <header class="flex_space">
+        <div class="logo">
+            <img src="./images/Green Hotel Ecological Bed  Breakfast Logo - Made with PosterMyWall (1).jpg" alt="Logo">
+        </div>
+        <ul class="navlinks flex_space">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <img src="./images/pexels-cottonbro-5371484.jpg" alt="Home Image" class="homeimg">
+        <div class="text">
+            <h1>Welcome to SEDUPANE Hotel</h1>
+            <p>Your satisfaction is our priority</p>
+            <button class="primary-btn">Book Now</button>
+            <button class="secondary-btn">Learn More</button>
+        </div>
+    </section>
+    <!-- Notification Section -->
+    <section class="notification">
+        <div class="container">
+            <div class="notification-header">
+                <h2>Notifications</h2>
+            </div>
+            <div class="notification-content">
+                <p>No new notifications.</p> <!-- Default message when there are no notifications -->
+                <!-- Dynamic notifications will be added here -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="book">
+        <div class="container">
+            <h1><span>Book</span> A Room</h1>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="date" placeholder="Check-in Date">
+                <input type="date" placeholder="Check-out Date">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container flex_space">
+            <div class="left">
+                <h2>About Us</h2>
+                <p>Welcome to Sedupane Hotel, where we think every visit should be a memorable one. Founded in 1996, our
+                    objective has always been to provide outstanding hospitality and a streamlined booking experience to
+                    tourists throughout the world.</p>
+                <button class="primary-btn">Read More</button>
+            </div>
+            <div class="right">
+                <img src="./images/1407953244000-177513283.webp" alt="About Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="counter">
+        <div class="container grid">
+            <div>
+                <h1>200</h1>
+                <hr>
+                <p>Rooms</p>
+            </div>
+            <div>
+                <h1>75</h1>
+                <hr>
+                <p>Staff</p>
+            </div>
+            <div>
+                <h1>1500+</h1>
+                <hr>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h1>7</h1>
+                <hr>
+                <p>Awards</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="rooms" id="rooms">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./images/851051_l.jpg" alt="Room Image">
+                    <div class="text">
+                        <h3>Superior class room <span>R300/night</span></h3>
+                        <p>Is meant to give a calm and advanced setting, guaranteeing that you
+                            enjoy relaxation and luxury throughout your stay. Whether you're here for just a few days or
+                            a long stay, we invite you to enjoy the outstanding comfort and exceptional service that
+                            distinguish our rooms.</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/pexels-cottonbro-5379219.jpg" alt="Room Image">
+                    <div class="text">
+                        <h3>Luxury Room <span>R450/night</span></h3>
+                        <p>It provides the finest experience of sophistication and style. This
+                            accommodation is designed for discriminating guests seeking the best in comfort and style,
+                            providing a retreat where extravagance meets relaxation.</p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container grid">
+            <h2>Our Gallery</h2>
+            <div class="img">
+                <img src="./images/pexels-wildlittlethingsphoto-2017802.jpg" alt="Gallery Image">
+                <div class="overlay">
+                    <span><i class="fas fa-search"></i></span>
+                    <h3>View Image</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/pexels-pixabay-271618.jpg" alt="Gallery Image">
+                <div class="overlay">
+                    <span><i class="fas fa-search"></i></span>
+                    <h3>View Image</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container flex_space">
+            <div class="left">
+                <h2>Our Services</h2>
+                <p>At Sedupane Hotel, we take pride in providing great service that exceeds your expectations and
+                    improves all aspects of your stay. Our committed team is here to ensure that every part of your
+                    visit is handled with the highest professionalism and attention.</p>
+                <div class="box">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h1>Room Service</h1>
+                    <p>Our outstanding Room Service at Sedupane Hotel, provides the best in convenience and comfort.
+                        Designed to cater to your requirements around the clock, our room service offers a variety of
+                        tasty alternatives and great service right at your doorstep.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-swimmer"></i>
+                    <h1>Swimming Pool</h1>
+                    <p>Dive into relaxation and luxury at Sedupane Hotel, exquisite swimming pool. Our pool area is
+                        designed to offer a refreshing retreat where guests can unwind, exercise, or simply enjoy the
+                        serene surroundings. in example of our featurs elegent pool area, family-friendly features,
+                        relation and erllness etc.</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./images/scan QR promotional offers - Made with PosterMyWall.jpg" alt="Services Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="offers" id="offers">
+        <div class="container">
+            <h2>Special Offers</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./images/f68046553973f747006ed5946c84ede7.jpg" alt="Offer Image">
+                    <div class="overlay">
+                        <span><i class="fas fa-search"></i></span>
+                        <h3>Special Discount</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./images/42dab444b200ac06436c993d6171c209.jpg" alt="Offer Image">
+                    <div class="overlay">
+                        <span><i class="fas fa-search"></i></span>
+                        <h3>Exclusive Offer</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>We recognize that vacation plans can be complicated and stressful. That is why we promise to make the
+                    reservation procedure as simple and straightforward as possible. Whether you're planning a relaxing
+                    vacation or a business trip, we're here to help you every step of the way.</p>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> 084 904 5099</p>
+                <p><i class="fas fa-envelope"></i> tokelotwistsedupane.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 173 Pretorius street, Pretoria, South Africa</p>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <p><i class="fab fa-facebook-f"></i> Facebook</p>
+                <p><i class="fab fa-twitter"></i> Twitter</p>
+                <p><i class="fab fa-instagram"></i> Instagram</p>
+                <p><i class="fab fa-tiktok"></i> Tiktok</p>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates.</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="container flex_space">
+            <p>&copy; 2023 Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
